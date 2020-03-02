@@ -70,7 +70,7 @@ class Publicidad extends Module implements WidgetInterface
 
     public function getWidgetVariables($hookName, array $configuration)
     {
-        $url = $this->context->link->getMediaLink(_MODULE_DIR_.'publicidad/images/');
+        $url = $this->context->link->getMediaLink(_MODULE_DIR_.'publicidad/images/nohay.jpg');
         return array(
             'image_baseurl' => $url
         );

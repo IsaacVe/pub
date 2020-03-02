@@ -25,6 +25,6 @@
 
 <div class="row" id="publicidad">
     <div class="col-md-3">
-        <img src="{$image_baseurl}nohay.jpg">
+        <img src="{$image_baseurl}">
     </div>
 </div>
